@@ -23,11 +23,9 @@ docker run -d -p 8080:80 --name my-nginx nginx
 ```
 docker ps
 ```
-> copy the container id 
-
 * stop the running contrainer
 ```
-docker stop "container_id"
+docker stop my-nginx
 ```
 * see all docker containers running and stopped
 ```
