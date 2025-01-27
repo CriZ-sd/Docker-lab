@@ -1,4 +1,4 @@
-# Docker Commands Recap
+# Docker Commands 
 
 ## 1. Running Containers
 
