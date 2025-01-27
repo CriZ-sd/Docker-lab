@@ -25,4 +25,5 @@
 * Docker Volumes : used to persist data outside of containers (Containers →  stateless by design → when a container is stopped or deleted, all the data inside it → lost )
 
 
-Auth elab - Docker 
+
+
