@@ -14,11 +14,11 @@
 
 ## Docker key components 
 * Docker Engine : running and managing containers
-** Docker Daemon : background → manage Docker objects like images and containers
-** Docker CLI 
+  * Docker Daemon : background → manage Docker objects like images and containers
+  * Docker CLI 
 * Docker Images:  “template” or “blueprint” for creating containers
-** code, libraries,system tools, etc. 
-** Layers: Images  → built in layers : each  represents a change 
+  * code, libraries,system tools, etc. 
+  * Layers: Images  → built in layers : each  represents a change 
 * Docker Containers :  a running instance of a Docker image → it behaves like an independent, small virtual machine
 * Dockerfile: script-like file that contains instructions to build a Docker image
 * Docker Networks : allow containers to communicate with each other or with external systems.
