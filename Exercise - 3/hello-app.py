@@ -5,5 +5,5 @@ print('hello ..')
 while True:
   end_t = time.time()
   if (end_t-t_start)%10 == 0:
-    print(f'passe time : {end_t-s_time}')
+    print(f'passe time : {end_t-t_start}')
 
