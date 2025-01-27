@@ -68,7 +68,16 @@ docker images
 docker run --rm rpi-python-requests-app
 ```
 > --rm: Automatically removes the container after it finishes running.
-* see the running docker containers
+* see all docker containers
 ```
-docker ps
+docker ps --all
 ```
+* run again without the rm flag
+```
+docker run rpi-python-requests-app
+```
+* see all docker containers
+```
+docker ps --all
+```
+
