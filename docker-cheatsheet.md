@@ -47,14 +47,14 @@
 
 | **Command**                                | **Description**                                      |
 |--------------------------------------------|------------------------------------------------------|
-| `docker-compose up`                        | Start services defined in `docker-compose.yml`      |
-| `docker-compose up -d`                     | Start services in detached mode                    |
-| `docker-compose down`                      | Stop and remove containers defined in `docker-compose.yml` |
-| `docker-compose ps`                        | List containers managed by Docker Compose          |
-| `docker-compose logs`                      | View logs for containers managed by Compose         |
-| `docker-compose logs -f`                   | Follow real-time logs for services                 |
-| `docker-compose exec SERVICE COMMAND`      | Execute a command inside a running service container |
-| `docker-compose build`                     | Build or rebuild services                          |
+| `docker compose up`                        | Start services defined in `docker-compose.yml`      |
+| `docker compose up -d`                     | Start services in detached mode                    |
+| `docker compose down`                      | Stop and remove containers defined in `docker-compose.yml` |
+| `docker compose ps`                        | List containers managed by Docker Compose          |
+| `docker compose logs`                      | View logs for containers managed by Compose         |
+| `docker compose logs -f`                   | Follow real-time logs for services                 |
+| `docker compose exec SERVICE COMMAND`      | Execute a command inside a running service container |
+| `docker compose build`                     | Build or rebuild services                          |
 | `docker-compose up --scale SERVICE=NUMBER` | Scale a service to the specified number of instances |
 
 ---
