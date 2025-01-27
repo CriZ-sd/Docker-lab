@@ -13,7 +13,7 @@ docker run -d -p 8080:80 --name my-nginx nginx
 ```
 > -d : detatched mode , -p : Map port 8080 on your Pi to port 80 inside the container
 
-* find the web server online on : http://<your-raspberry-pi-ip>:8080 
+* find the web server online on : http://your-raspberry-pi-ip:8080 
 
 * check for running containers
 ```
