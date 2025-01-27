@@ -8,6 +8,13 @@ cd fetch_data_app
 ```
 * copy the app.py python file
 ```
+nano app.py
+# paste the python script
+ctrl +x
+y
+```
+app.py : 
+```
 import requests
 
 # Make a GET request to a public API
