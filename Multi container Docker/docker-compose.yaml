@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  alpine1:
+    image: alpine:latest
+    command: sh -c "echo 'Hello from container 1!' && sleep 30"
+    
+  alpine2:
+    image: alpine:latest
+    command: sh -c "echo 'Hello from container 2!' && sleep 30"
