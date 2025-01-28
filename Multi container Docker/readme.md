@@ -14,7 +14,7 @@ docker compose
 mkdir ~/docker-compose-app
 cd ~/docker-compose-app
 ```
-* create a yaml file that create 2 containers and echo a message from each one
+* create a yaml file that creates 2 containers and echo a message from each one
 ```
 version: '3'
 
