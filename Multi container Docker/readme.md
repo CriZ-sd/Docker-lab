@@ -31,11 +31,11 @@ services:
 
 * run the  containers
 ```
-docker-compose up
+docker compose up
 ```  
 * stop the containers and clean up (remove them)
 ```
-docker-compose down
+docker compose down
 ```
 *check for running containers
 ```
