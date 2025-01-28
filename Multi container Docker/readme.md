@@ -37,7 +37,7 @@ docker compose up
 ```
 docker compose down
 ```
-*check for running containers
+* check for running containers
 ```
 docker compose ps 
 ```
