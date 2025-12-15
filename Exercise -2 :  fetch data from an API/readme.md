@@ -39,8 +39,8 @@ y
 ```
 Dockerfile :
 ```
-# Use the official Python image for Raspberry Pi (ARM architecture)
-FROM arm32v7/python:3.9-slim
+# Use the official Python image 
+FROM python:3.9
 
 # Set the working directory inside the container
 WORKDIR /app
