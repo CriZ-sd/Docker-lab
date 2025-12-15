@@ -6,7 +6,10 @@ Use nginx container to create a webserver form your local machine
 ```
 docker pull nginx
 ```
-
+* see all available docker images
+```
+docker images
+```
  * run an nginx container
 ```
 docker run -d -p 8080:80 --name my-nginx nginx
