@@ -1,6 +1,9 @@
 # Exercise -1 : nginx-web server
 Use nginx container to create a webserver form your local machine 
 
+## Open  Play with Docker
+https://labs.play-with-docker.com/ 
+
 ## Docker implementation 
 * pull nginx docker image
 ```
