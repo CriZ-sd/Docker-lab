@@ -13,6 +13,13 @@ nano app.py
 ctrl +x
 y
 ```
+or 
+```
+touch app.py
+```
+- then open with a text editor 
+
+
 app.py : 
 ```
 import requests
@@ -37,6 +44,12 @@ nano Dockerfile
 ctrl +x
 y
 ```
+or 
+```
+touch Dockerfile
+```
+- then open with editor
+
 Dockerfile :
 ```
 # Use the official Python image 
