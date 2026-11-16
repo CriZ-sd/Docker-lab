@@ -101,32 +101,12 @@ The server may need some time to load the model.
 
 In Google Cloud Shell:
 
-1. Click **Web Preview** in the Cloud Shell toolbar.
-2. Select **Change port**.
-3. Enter `8080` and open the preview.
-4. Once the server is ready, interact with your local AI chatbot using the llama.cpp web interface.
+1. Click **Web Preview** in the Cloud Shell toolbar. (Port `8080`)
+2. Once the server is ready, interact with your local AI chatbot using the llama.cpp web interface.
 
 You can now ask your AI assistant questions directly from your browser!
 
-### Optional: Test the API from the Terminal
-
-You can also send messages using an HTTP request:
-
-```bash
-curl http://localhost:8080/v1/chat/completions \
-  -H "Content-Type: application/json" \
-  -d '{
-    "messages": [
-      {
-        "role": "user",
-        "content": "Explain Docker in simple terms."
-      }
-    ],
-    "max_tokens": 100
-  }'
-```
-
-## Step 7: Stop and Remove the Container
+## Step 6: Stop and Remove the Container
 
 When you've finished experimenting, stop the container:
 
