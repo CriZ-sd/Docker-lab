@@ -4,14 +4,6 @@ In this tutorial, we'll create our own **local LLM chatbot assistant** using Doc
 
 We'll use a lightweight, open-source language model called **Qwen2.5-0.5B-Instruct** and run it inside a Docker container using **llama.cpp**.
 
-The example is designed to run in **Google Cloud Shell**, which provides limited disk space and CPU resources.
-
-## Prerequisites
-
-- Access to Google Cloud Shell
-- Docker installed and running
-- Approximately 1 GB of free disk space (more is recommended)
-- Basic familiarity with Linux commands
 
 ## Step 1: Create a Directory for the AI Model
 
