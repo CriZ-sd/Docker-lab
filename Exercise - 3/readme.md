@@ -22,5 +22,4 @@
 * clean the system form all the stopped containers and unused images  
 * print all the available images and containers
 
-## !!Create a github named docker-lab-exercise and add me as a collaborator 
-## !!Also, create a file named commands.md and write all the commands that you used for the exercise and upload it on your github repo 
+## !! Create a file named commands.md and write all the commands that you used for the exercise 
