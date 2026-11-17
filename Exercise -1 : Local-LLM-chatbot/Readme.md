@@ -42,7 +42,7 @@ We'll use a lightweight Docker image containing **llama.cpp**, an open-source LL
 Pull the image from Docker Hub:
 
 ```bash
-docker pull samueltallet/alpine-llama-cpp-server:latest
+docker pull ghcr.io/ggml-org/llama.cpp:server
 ```
 
 Docker Hub image:
@@ -56,15 +56,15 @@ Start the LLM server inside a Docker container:
 ```bash
 docker run -d \
   --name ai-chatbot \
+  --restart unless-stopped \
   -p 8080:8080 \
   -v "$HOME/ai-models:/models:ro" \
-  samueltallet/alpine-llama-cpp-server:latest \
-  /opt/llama.cpp/llama-server \
-  --model /models/qwen.gguf \
+  ghcr.io/ggml-org/llama.cpp:server \
+  -m /models/qwen.gguf \
   --host 0.0.0.0 \
   --port 8080 \
-  --ctx-size 1024 \
-  --threads 2
+  -c 1024 \
+  -t 2
 ```
 
 ### Understanding the Docker Command
@@ -75,11 +75,11 @@ docker run -d \
 | `--name ai-chatbot` | Assigns a name to the container |
 | `-p 8080:8080` | Maps port 8080 of the container to port 8080 of the host |
 | `-v "$HOME/ai-models:/models:ro"` | Mounts the model directory as read-only inside the container |
-| `--model /models/qwen.gguf` | Specifies which LLM to load |
+| `-m /models/qwen.gguf` | Specifies which LLM to load |
 | `--host 0.0.0.0` | Allows the server to accept connections through the container's network interface |
 | `--port 8080` | Specifies the server port |
-| `--ctx-size 1024` | Sets the model context window to 1024 tokens |
-| `--threads 2` | Uses two CPU threads for inference |
+| `-c 1024` | Sets the model context window to 1024 tokens |
+| `-t 2` | Uses two CPU threads for inference |
 
 ## Step 5: Verify That the Container Is Running
 
