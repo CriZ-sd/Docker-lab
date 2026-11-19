@@ -45,9 +45,6 @@ Pull the image from Docker Hub:
 docker pull ghcr.io/ggml-org/llama.cpp:server
 ```
 
-Docker Hub image:
-
-https://hub.docker.com/r/samueltallet/alpine-llama-cpp-server
 
 ## Step 4: Run the AI Chatbot Container
 
@@ -133,7 +130,7 @@ docker ps -a
 Remove the Docker image:
 
 ```bash
-docker rmi samueltallet/alpine-llama-cpp-server:latest
+docker rmi ghcr.io/ggml-org/llama.cpp:server
 ```
 
 Remove the downloaded model:
